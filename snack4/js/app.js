@@ -11,7 +11,7 @@ const gatsbyParty = [
 console.log(gatsbyParty);
 
 //salvo il nome dell'utente in una variabile
-const userName = prompt('Ciao, come ti chiami?');
+const userName = prompt('Ciao, come ti chiami?').trim();
 console.log(userName);
 
 let correctName = false;
